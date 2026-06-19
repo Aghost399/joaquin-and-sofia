@@ -1,0 +1,39 @@
+:root{
+    --color-principal:#FFBC42 ; 
+    --color-secundario:#D81159 ;
+    --color-tercero:#48BEFF ;
+    --letra: font-family: "Pixelify Sans", system-ui;
+}
+
+h1 {
+    color: darkred;
+}
+h2 {
+    color: blueviolet;
+}
+
+#ejemplo {
+    color:skyblue;
+    text-align: center;
+}
+
+.destacado {
+    color:green;
+    background-color: rgb(255, 255, 255);
+}
+
+.imagenes {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #f9f9f9;
+}
+body {
+    background-color: rgb(242, 255, 251);
+    color: palevioletred; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
